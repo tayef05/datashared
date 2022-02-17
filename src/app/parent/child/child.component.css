@@ -1,0 +1,15 @@
+button.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #00bcd440;
+  font-size: 16px;
+  font-weight: 600;
+  color: #03a9f4;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
