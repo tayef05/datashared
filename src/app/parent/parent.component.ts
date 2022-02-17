@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.css'],
 })
 export class ParentComponent implements OnInit {
-  constructor() {}
   data: string = '';
+  constructor() {}
   ngOnInit(): void {}
   receiveData($event: string) {
     this.data = $event;

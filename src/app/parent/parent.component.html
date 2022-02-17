@@ -1,2 +1,2 @@
 <app-child (dataEvent)="receiveData($event)"></app-child>
-<p style="font-size: 42px; color: #3f51b5; text-align: center">{{ data }}</p>
+<p *ngIf="data.length > 0" class="childData">{{ data }}</p>

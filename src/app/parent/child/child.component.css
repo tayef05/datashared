@@ -2,9 +2,10 @@ button.btn {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #00bcd440;
+  background: #9ef4ff;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
   color: #03a9f4;
 }
 .container {
