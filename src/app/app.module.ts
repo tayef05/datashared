@@ -7,6 +7,9 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './parent/child/child.component';
 import { ParenttoComponent } from './parentto/parentto.component';
 import { FrchildComponent } from './parentto/frchild/frchild.component';
+import { RouteComponent } from './route/route.component';
+import { HomeComponent } from './home/home.component';
+import { PageErrorComponent } from './page-error/page-error.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { FrchildComponent } from './parentto/frchild/frchild.component';
     ParentComponent,
     ChildComponent,
     ParenttoComponent,
-    FrchildComponent
+    FrchildComponent,
+    RouteComponent,
+    HomeComponent,
+    PageErrorComponent
   ],
   imports: [
     BrowserModule,

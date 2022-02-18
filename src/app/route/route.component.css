@@ -1,0 +1,15 @@
+.navbar {
+  display: inline;
+}
+.navItem {
+  display: inline;
+  padding: 8px 4px;
+}
+.navItemLink {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3f51b5;
+}
+.active {
+  color: blueviolet;
+}
